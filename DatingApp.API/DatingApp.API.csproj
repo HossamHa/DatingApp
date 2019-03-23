@@ -5,7 +5,8 @@
   <ItemGroup>
     <Folder Include="wwwroot\"/>
   </ItemGroup>
-  <ItemGroup>
+  <ItemGroup>         
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.App"/>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.0"/>
   </ItemGroup>
